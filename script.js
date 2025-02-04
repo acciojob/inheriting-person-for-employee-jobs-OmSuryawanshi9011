@@ -20,6 +20,8 @@ class Employee extends Person {
     console.log(`Hello, my name is ${this.name}, I am ${this.age} years old.`);
   }
 }
+const person = new Person("Alice", 25);
+person.greet(); 
 
 // Do not change code below this line
 window.Person = Person;
